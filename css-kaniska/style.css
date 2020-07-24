@@ -95,7 +95,7 @@ input {
     overflow: hidden;
     width: 768px;
     max-width: 100%;
-    min-height: 480px;
+    min-height: 500px;
 }
 
 .form-container {
@@ -209,6 +209,8 @@ input {
     transform: translateX(20%);
 }
 
+
+/* 
 .social-container {
     margin: 20px 0;
 }
@@ -222,4 +224,13 @@ input {
     margin: 0 5px;
     height: 40px;
     width: 40px;
+} */
+
+@media screen and (max-width: 600px) {
+    #fadeshow1 {
+        display: none;
+    }
+    .sign-in-container {
+        width: 100%;
+    }
 }
